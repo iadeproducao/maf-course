@@ -216,7 +216,8 @@ Caso encontre algum problema ou tenha alguma sugestão de conteúdo, abra uma *I
 
 # Licença
 
-Este projeto está disponível sob a licença MIT.
+Código dos exemplos: Licença MIT.
+Textos do curso (README, capítulos, imagens e materiais didáticos): Copyright © Fabio Navarro. Todos os direitos reservados.
 
 ---
 
