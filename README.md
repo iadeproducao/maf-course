@@ -131,6 +131,7 @@ Cada capítulo da documentação possui exemplos completos dentro da pasta `exam
 # Tecnologias Utilizadas
 
 * Python
+* uv
 * Microsoft Agent Framework
 * OpenAI
 * Azure OpenAI
@@ -165,10 +166,16 @@ Clone o repositório:
 git clone https://github.com/SEU_USUARIO/maf-course.git
 ```
 
-Instale as dependências:
+Instale o `uv`:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install uv
+```
+
+Sincronize as dependências do projeto:
+
+```bash
+uv sync
 ```
 
 Crie um arquivo `.env` baseado no `.env.example`:
@@ -180,7 +187,7 @@ OPENROUTER_API_KEY=...
 Execute qualquer exemplo:
 
 ```bash
-python examples/01-primeiro-agente.py
+uv run python examples/01-primeiro-agente.py
 ```
 
 ---
